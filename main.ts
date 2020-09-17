@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
     basic.showLeds(`
         # # # # #
         . . . . .
@@ -106,9 +106,10 @@ input.onButtonPressed(Button.A, function () {
             . . . . .
             . . . . .
             `)
+        basic.pause(200)
     }
 })
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
     while (true) {
         basic.showLeds(`
             . . . . .

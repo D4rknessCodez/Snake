@@ -90,91 +90,7 @@ def on_button_pressed_a():
         . . . # .
         . . . . .
         """)
-    basic.show_leds("""
-        # # # # #
-        # . . . #
-        . . . . .
-        . . . # .
-        . . . . .
-        """)
-    basic.show_leds("""
-        # # # # #
-        . . . . #
-        . . . . #
-        . . . # .
-        . . . . .
-        """)
-    basic.show_leds("""
-        . # # # #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . . . .
-        """)
-    basic.show_leds("""
-        . . # # #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . . . #
-        """)
-    basic.show_leds("""
-        . . . # #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . . # #
-        """)
-    basic.show_leds("""
-        . . . . #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . # # #
-        """)
-    basic.show_leds("""
-        . . . . .
-        . . . . #
-        . . . . #
-        . . . # #
-        . # # # #
-        """)
-    basic.show_leds("""
-        . . . . .
-        . . . . .
-        . . . . #
-        . . . # #
-        # # # # #
-        """)
-    basic.show_leds("""
-        . . . . .
-        . . . . .
-        . . . . .
-        # . . # #
-        # # # # #
-        """)
-    basic.show_leds("""
-        . . . . .
-        . . . . .
-        # . . . .
-        # . . # .
-        # # # # #
-        """)
-    basic.show_leds("""
-        . . . . .
-        . . . . .
-        # # . . .
-        # . . # .
-        # # # # .
-        """)
-    basic.show_leds("""
-        . . . . .
-        . . . . .
-        # # . . .
-        # # . # .
-        # # # . .
-        """)
-    for index in range(2):
+    while True:
         basic.show_leds("""
             # # # # #
             # # # # #
@@ -182,6 +98,7 @@ def on_button_pressed_a():
             # # # # #
             # # # # #
             """)
+        basic.pause(200)
         basic.show_leds("""
             . . . . .
             . . . . .
@@ -189,48 +106,7 @@ def on_button_pressed_a():
             . . . . .
             . . . . .
             """)
-        basic.show_leds("""
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            """)
-        basic.show_leds("""
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            """)
-        basic.show_leds("""
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            """)
-        basic.show_leds("""
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            """)
-        basic.show_leds("""
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            """)
-        basic.show_leds("""
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            """)
+        basic.pause(200)
 input.on_button_pressed(Button.A, on_button_pressed_a)
 
 def on_button_pressed_b():
@@ -239,28 +115,7 @@ def on_button_pressed_b():
             . . . . .
             . # . # .
             . . . . .
-            # . . . #
-            . # # # .
-            """)
-        basic.show_leds("""
-            . . . . .
-            . # . # .
-            . . . . .
-            # # # # #
-            . . . . .
-            """)
-        basic.show_leds("""
-            . . . . .
-            . # . # .
-            . . . . .
             . # # # .
             # . . . #
-            """)
-        basic.show_leds("""
-            . . . . .
-            . # . # .
-            . . . . .
-            # # # # #
-            . . . . .
             """)
 input.on_button_pressed(Button.B, on_button_pressed_b)
