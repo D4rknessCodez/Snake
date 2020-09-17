@@ -1,5 +1,5 @@
 {
-    "name": "IDK",
+    "name": "Snake",
     "description": "",
     "dependencies": {
         "core": "*",

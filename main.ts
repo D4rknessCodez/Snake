@@ -234,7 +234,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    for (let index = 0; index < 4; index++) {
+    while (true) {
         basic.showLeds(`
             . . . . .
             . # . # .
