@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function on_button_pressed_a() {
+input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         # # # # #
         . . . . .
@@ -92,13 +92,13 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
         `)
     while (true) {
         basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
+            . # # # .
+            # . . . .
+            # . # # .
+            # . . # .
+            . # # # .
             `)
-        basic.pause(200)
+        basic.pause(250)
         basic.showLeds(`
             . . . . .
             . . . . .
@@ -106,10 +106,10 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
             . . . . .
             . . . . .
             `)
-        basic.pause(200)
+        basic.pause(250)
     }
 })
-input.onButtonPressed(Button.B, function on_button_pressed_b() {
+input.onButtonPressed(Button.B, function () {
     while (true) {
         basic.showLeds(`
             . . . . .
