@@ -234,7 +234,7 @@ def on_button_pressed_a():
 input.on_button_pressed(Button.A, on_button_pressed_a)
 
 def on_button_pressed_b():
-    for index2 in range(4):
+    while True:
         basic.show_leds("""
             . . . . .
             . # . # .
