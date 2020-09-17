@@ -90,91 +90,7 @@ input.onButtonPressed(Button.A, function () {
         . . . # .
         . . . . .
         `)
-    basic.showLeds(`
-        # # # # #
-        # . . . #
-        . . . . .
-        . . . # .
-        . . . . .
-        `)
-    basic.showLeds(`
-        # # # # #
-        . . . . #
-        . . . . #
-        . . . # .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . # # # #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . # # #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . . . #
-        `)
-    basic.showLeds(`
-        . . . # #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . . # #
-        `)
-    basic.showLeds(`
-        . . . . #
-        . . . . #
-        . . . . #
-        . . . # #
-        . . # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . #
-        . . . . #
-        . . . # #
-        . # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . #
-        . . . # #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        # . . # #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        # . . . .
-        # . . # .
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        # # . . .
-        # . . # .
-        # # # # .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        # # . . .
-        # # . # .
-        # # # . .
-        `)
-    for (let index = 0; index < 2; index++) {
+    while (true) {
         basic.showLeds(`
             # # # # #
             # # # # #
@@ -182,48 +98,7 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             # # # # #
             `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            `)
+        basic.pause(200)
         basic.showLeds(`
             . . . . .
             . . . . .
