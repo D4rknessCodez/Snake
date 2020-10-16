@@ -92,13 +92,13 @@ def on_button_pressed_a():
         """)
     while True:
         basic.show_leds("""
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
+            . # # # .
+            # . . . .
+            # . # # .
+            # . . # .
+            . # # # .
             """)
-        basic.pause(200)
+        basic.pause(250)
         basic.show_leds("""
             . . . . .
             . . . . .
@@ -106,7 +106,7 @@ def on_button_pressed_a():
             . . . . .
             . . . . .
             """)
-        basic.pause(200)
+        basic.pause(250)
 input.on_button_pressed(Button.A, on_button_pressed_a)
 
 def on_button_pressed_b():
